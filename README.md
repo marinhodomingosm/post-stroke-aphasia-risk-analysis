@@ -1,6 +1,6 @@
 # Prevalence and Impact of PIMs, Mental Health, and Polypharmacy in Post-Stroke Aphasia
 
-*Capstone project for our M.S. in Data Science from  Northeastern University.*<br>
+Capstone project for our M.S. in Data Science from  Northeastern University.<br>
 **Team:** [Evangeline Kim](https://github.com/charVANder) & [Liam O'Connor](https://github.com/LRDOC)<br>
 **Stakeholder:** [Rob Cavanaugh](https://roux.northeastern.edu/people/rob-cavanaugh/) (PhD, Asst. Prof., MGH Institute, The Roux Institute)
 
@@ -110,10 +110,5 @@ pip install -r requirements.txt
     ```
 
 ---
-*Capstone project for our M.S. in Data Science from  Northeastern University*
-
-**Team:** [Evangeline Kim](https://github.com/charVANder) & [Liam O'Connor](https://github.com/LRDOC)
-
-**Stakeholder:** [Rob Cavanaugh](https://roux.northeastern.edu/people/rob-cavanaugh/) (PhD, Asst. Prof., MGH Institute, The Roux Institute)
 
 *The base stroke cohort used in this project was built off of the work done in a previous project found [here](https://github.com/cbt87/stroke_aftercare)*
