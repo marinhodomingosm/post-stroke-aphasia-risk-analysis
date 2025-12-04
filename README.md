@@ -4,7 +4,9 @@ Capstone project for our M.S. in Data Science from  Northeastern University.<br>
 **Team:** [Evangeline Kim](https://github.com/charVANder) & [Liam O'Connor](https://github.com/LRDOC)<br>
 **Stakeholder:** [Rob Cavanaugh](https://roux.northeastern.edu/people/rob-cavanaugh/) (PhD, Asst. Prof., MGH Institute, The Roux Institute)
 
-The goal of this project is to investigate the prevalence and impact of potentially inappropriate medications (PIMs) in stroke survivors with a focus on people with aphasia (a population that experiences communication and healthcare barriers). The main questions being answered center on identifying drug-related risks that might affect recovery and increase hospital readmissions, especially in those with underdiagnosed mental health conditions. With claims data, the Pharmetrics+ dataset and OMOP Common Data Model, we hope to generate more insight for safer prescribing practices and possibly future publications focused on improving post-stroke care for vulnerable populations.
+This OHDSI-Stroke research investigates the prevalence and impact of potentially inappropriate medications (PIMs) and polypharmacy in stroke survivors, with particular focus on patients with aphasia—a population that experiences significant communication and healthcare barriers. We examine high-risk prescribing patterns, explore links to underdiagnosed mental health conditions, and evaluate how these factors relate to hospital readmissions. 
+
+Using the Pharmetrics+ claims dataset and OMOP Common Data Model, we analyzed over 53,000 post-stroke patients to identify medication-related risks that may compromise recovery and increase readmission rates. Our analysis combines descriptive statistics, predictive modeling for risk stratification, and explanatory modeling to quantify clinical impact. This work aims to generate insights for safer prescribing practices and improve post-stroke care for vulnerable populations.
 
 ## Website
 A GitHub Pages website using the Observable Framework has been created. Click the link [here]() to read our full report and explore the methodology, interactive visualizations, modeling pipelines, and results.

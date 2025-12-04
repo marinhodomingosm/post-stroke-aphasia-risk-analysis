@@ -42,4 +42,4 @@ Using the Pharmetrics+ claims dataset and the OMOP Common Data Model, our study 
 
 ## Our Main Objective
 
-**Investigate the prevalence and impact of potentially inappropriate medications (PIMs) and polypharmacy in stroke survivors (especially those with aphasia) by identifying high-risk prescribing patterns, exploring links to the underdiagnosed mental health conditions, and evaluating how these factors might be related to hospital readmissions.**
+**Investigate the prevalence and impact of potentially inappropriate medications (PIMs) and polypharmacy in stroke survivors (especially those with aphasia) by identifying high-risk prescribing patterns, exploring links to the underdiagnosed mental health conditions, and quantifying how these factors relate to hospital readmissions.**
