@@ -9,7 +9,7 @@ This OHDSI-Stroke research investigates the prevalence and impact of potentially
 Using the Pharmetrics+ claims dataset and OMOP Common Data Model, we analyzed over 53,000 post-stroke patients to identify medication-related risks that may compromise recovery and increase readmission rates. Our analysis combines descriptive statistics, predictive modeling for risk stratification, and explanatory modeling to quantify clinical impact. This work aims to generate insights for safer prescribing practices and improve post-stroke care for vulnerable populations.
 
 ## Website
-A GitHub Pages website using the Observable Framework has been created. Click the link [here]() to read our full report and explore the methodology, interactive visualizations, modeling pipelines, and results.
+A GitHub Pages website using the Observable Framework has been created. Click the link [here](https://charvander.github.io/post-stroke-aphasia-risk-analysis/) to read our full report and explore the methodology, interactive visualizations, modeling pipelines, and results.
 
 ## Setup
 ### Conda Enviroment:
