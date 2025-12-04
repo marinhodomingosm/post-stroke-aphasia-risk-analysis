@@ -43,7 +43,7 @@ This project was an incredible learning experience, allowing us to explore healt
 
 ## Acknowledgements
 Special thanks to:
-- **Stakeholder Rob Cavanaugh** and his coworker **Chelsea** for their continual guidance.
+- **Rob Cavanaugh** (stakeholder) and his coworker **Chelsea** for their continual guidance.
 - **Jonah Bradenday** for working out any OHDSI lab issues.
 - **Casey Tilton** whose project we built our initial base aphasia cohort on.
   - His work can be found [here](https://github.com/cbt87/stroke_aftercare).
