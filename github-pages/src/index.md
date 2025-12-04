@@ -4,7 +4,7 @@
 
 **Stakeholder:** [Rob Cavanaugh](https://roux.northeastern.edu/people/rob-cavanaugh/) (PhD, Asst. Prof., MGH Institute, The Roux Institute)
 
-**GitHub Repository:** Access the full analysis pipeline, scripts, and documentation [here](https://github.com/charVANder/post-stroke-aphasia-risk-analysis). All analyses are fully reproducible using the provided Makefile commands.
+<p><strong>GitHub Repository:</strong> Access the full analysis pipeline, scripts, and documentation <a href="https://github.com/charVANder/post-stroke-aphasia-risk-analysis" target="_blank">here</a>. All analyses are fully reproducible using the provided Makefile commands.</p> 
 
 ---
 
