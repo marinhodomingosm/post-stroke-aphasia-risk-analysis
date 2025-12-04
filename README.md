@@ -50,7 +50,7 @@ pip install -r requirements.txt
     ```bash
     make cohort
     ```
-    *This will create both the `inpatient_stroke_demo` and `stroke_cohort_w_conditions_demo` tables with the latter being the base cohort that the `eda2.py` file works off of.*
+    *This will create both the `inpatient_stroke_demo` and `stroke_cohort_w_conditions_demo` tables with the latter being the base cohort that the `eda.py` file works off of.*
 
 ### 3. Initial EDA on Base Cohort
 * To create the initial data exploration images using the base cohort, run the following command:
